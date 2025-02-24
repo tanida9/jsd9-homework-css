@@ -92,8 +92,8 @@ h2 {
     background-color: var(--cls-secondary);
     font-size: 14px;
     font-weight: 600;
-    /*filter: drop-shadow(rgb(2, 2, 2) 4px 4px 0px);
-        */
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+    text-decoration: none;
 }
 /* inside .flexbox--content-column   */
 .flexbox--column {
@@ -142,7 +142,8 @@ p {
     background-color: var(--cls-green-400);}
 .statistic--column {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    align-items: start;
     column-gap: 24px;
     row-gap: 0px;
     margin-top: 12px;
